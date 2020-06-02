@@ -1,25 +1,24 @@
-cooldown: '&6Warning: &7Please wait for %time% seconds before placing again!'
-no_such_command: '&cNo such command. please type /ps help for more info'
-no_access: '&cYou are not allowed to do that here.'
-no_room_in_inventory: '&cYou don''t have enough room in your inventory.'
-no_room_dropping_on_floor: '&cYou don''t have enough room in your inventory. Dropping
-  item on floor.'
-invalid_block: '&cInvalid protection block.'
-not_enough_money: '&cYou don''t have enough money! The price is %price%.'
-paid_money: '&bYou''ve paid $%price%.'
-invalid_world: '&cInvalid world.'
-must_be_player: '&cYou must be a player to execute this command.'
-go_back_page: Go back a page.
-go_next_page: Go to next page.
+cooldown: '&6警告: &7请等待 %time% 秒后再进行摆放!'
+no_such_command: '&c指令不存在. 请输入 /ps 获取帮助信息.'
+no_access: '&c你没有权限这么做.'
+no_room_in_inventory: '&c你的背包没有足够空间.'
+no_room_dropping_on_floor: '&c你的背包没有足够空间, 方块已掉落至地面.'
+invalid_block: '&c无效的基地方块.'
+not_enough_money: '&c你的铜钱数量不足! 价格为 %price% .'
+paid_money: '&b你支付了 $%price% .'
+invalid_world: '&c无效的世界.'
+must_be_player: '&c你必须是玩家才能执行此命令.'
+go_back_page: 返回上一页.
+go_next_page: 前往下一页.
 help: |-
-  &8&m=====&r PS Help &8&m=====
+  &8&m=====&r 基地方块帮助 &8&m=====
   &b> &7/ps help
-help_next: '&7Do /ps help %page% to go to the next page!'
-command_requires_player_name: '&cThis command requires a player name.'
-no_permission_toggle: '&cYou don''t have permission to use the toggle command.'
-no_permission_create: '&cYou don''t have permission to place a protection block.'
-no_permission_destroy: '&cYou don''t have permission to destroy a protection block.'
-no_permission_members: '&cYou don''t have permission to use member commands.'
+help_next: '&7使用 /ps help %page% 转到下一页!'
+command_requires_player_name: '&c该指令需要指定玩家名称.'
+no_permission_toggle: '&c你没有权限使用 toggle 指令.'
+no_permission_create: '&c你没有权限放置基地方块.'
+no_permission_destroy: '&c你没有权限摧毁基地方块.'
+no_permission_members: '&c你没有权限使用 member 指令.'
 no_permission_owners: '&cYou don''t have permission to use owner commands.'
 no_permission_admin: '&cYou do not have permission to use that command.'
 no_permission_count: '&cYou do not have permission to use that command.'
