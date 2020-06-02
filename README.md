@@ -14,3 +14,28 @@
 ### 已收录插件
 
 * [ProtectionStones](https://www.spigotmc.org/resources/61797) by EspiDev - https://github.com/espidev/ProtectionStones
+
+### 颜色代码
+
+- `&0` `#000000` 黑色
+- `&1` `#0000AA` 深蓝色
+- `&2` `#00AA00` 深绿色
+- `&3` `#00AAAA` 湖蓝色
+- `&4` `#AA0000` 深红色
+- `&5` `#AA00AA` 紫色
+- `&6` `#FFAA00` 金色
+- `&7` `#AAAAAA` 灰色
+- `&8` `#555555` 深灰色
+- `&9` `#5555FF` 蓝色
+- `&a` `#55FF55` 绿色
+- `&b` `#55FFFF` 天蓝色
+- `&c` `#FF5555` 红色
+- `&d` `#FF55FF` 粉红色
+- `&e` `#FFFF55` 黄色
+- `&f` `#FFFFFF` 白色
+- `&k` 随机字符
+- `&l` **粗体**
+- `&m` ~~删除线~~
+- `&n` <u>下划线</u>
+- `&o` *斜体*
+- `&r` 重置文字样式
