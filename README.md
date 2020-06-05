@@ -12,7 +12,8 @@
 
 ### 已收录插件
 
-* [ProtectionStones](https://www.spigotmc.org/resources/61797) by EspiDev - https://github.com/espidev/ProtectionStones
+* [ProtectionStones](https://www.spigotmc.org/resources/61797) 基地方块 - https://github.com/espidev/ProtectionStones
+* [RecipeManager](https://dev.bukkit.org/projects/recipemanager) 自定义合成表 - https://github.com/haveric/RecipeManager2
 
 ### 颜色代码
 
