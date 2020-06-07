@@ -1,17 +1,13 @@
 command:
-  cannot_be_used_by_console: This command cannot be used by the console. Sorry!
-  cannot_edit_owner: '&4You cannot change the owner of the protection. Destroy the
-    sign instead.'
-  line_number_out_of_bounds: '&4Please enter a line number between 2 and 4, inclusive.'
-  no_permission: '&4You don''t have permission to execute this command. Sorry!'
-  no_sign_selected: '&4You must select a sign on one of your protected blocks first
-    by right-clicking it.'
-  player_name_too_long: '&4The player name is over 16 characters, which doesn''t fit
-    on the sign. It is also longer than Mojang allows player names to be.'
-  plugin_reloaded: '&6Reloaded the configuration files!'
-  sign_no_longer_part_of_protection: '&4The selected sign no longer belongs to a protected
-    block.'
-  updated_sign: '&6Updated the sign!'
+  cannot_be_used_by_console: '很抱歉, 无法通过控制台执行此指令!'
+  cannot_edit_owner: '&4你无法更改木牌锁主人. 请直接摧毁木牌.'
+  line_number_out_of_bounds: '&4请输入2-4作为行号.'
+  no_permission: '&4很抱歉, 你没有权限使用这条指令!'
+  no_sign_selected: '&4你必须先通过右键点击选择一个你的木牌锁.'
+  player_name_too_long: '&4玩家名超出了允许的长度范围.'
+  plugin_reloaded: '&6配置文件重载成功!'
+  sign_no_longer_part_of_protection: '&4所选木牌锁不再保护方块.'
+  updated_sign: '&6木牌锁更新成功!'
 protection:
   add_more_users_sign_instead: '&4There can only be one [Private] sign on a protection.
     Add a [More Users] sign instead.'
