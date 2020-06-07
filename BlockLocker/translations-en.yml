@@ -1,6 +1,6 @@
 command:
   cannot_be_used_by_console: '很抱歉, 无法通过控制台执行此指令!'
-  cannot_edit_owner: '&4你无法更改木牌锁主人. 请直接摧毁木牌.'
+  cannot_edit_owner: '&4你无法更改木牌锁主人. 如果你想, 请直接摧毁木牌.'
   line_number_out_of_bounds: '&4请输入2-4作为行号.'
   no_permission: '&4很抱歉, 你没有权限使用这条指令!'
   no_sign_selected: '&4你必须先通过右键点击选择一个你的木牌锁.'
