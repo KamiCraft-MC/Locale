@@ -1,7 +1,7 @@
 command:
   cannot_be_used_by_console: '很抱歉, 无法通过控制台执行此指令!'
-  cannot_edit_owner: '&4你无法更改木牌锁主人. 如果你想, 请直接摧毁木牌.'
-  line_number_out_of_bounds: '&4请输入2-4作为行号.'
+  cannot_edit_owner: '&4你无法更改木牌锁主人. 如果你想这么做, 请直接摧毁木牌.'
+  line_number_out_of_bounds: '&4请输入数字2-4作为行数.'
   no_permission: '&4很抱歉, 你没有权限使用这条指令!'
   no_sign_selected: '&4你必须先通过右键点击选择一个你的木牌锁.'
   player_name_too_long: '&4玩家名超出了允许的长度范围.'
@@ -9,23 +9,19 @@ command:
   sign_no_longer_part_of_protection: '&4所选木牌锁不再保护方块.'
   updated_sign: '&6木牌锁更新成功!'
 protection:
-  add_more_users_sign_instead: '&4There can only be one [Private] sign on a protection.
-    Add a [More Users] sign instead.'
-  bypassed: '&6You have just bypassed a protection of {0}.'
-  cannot_change_sign: '&4You cannot change a sign nearby a claimed container.'
-  chest_hint: '&6Place a sign on this chest to protect it.'
-  claimed_container: '&6Claimed this container. Nobody else can access it.'
-  claimed_manually: '&6Created a claim. Only the people listed on the sign can access
-    it.'
-  expired: '&6The protection of this block has expired due to inactivity of the owner.'
-  in_wilderness: '&4You cannot create a protection here: you are in the wilderness.'
-  is_claimed_by: '&6This block has been claimed by {0}.'
-  no_access: '&4You cannot use this block, it is protected by {0}.'
-  no_permission_for_claim: '&4You don''t have permission to claim a container, sorry.'
-  not_nearby: '&4There is no protectable block nearby. (Shift-)right-click a container
-    with a sign in your hand to protect it.'
-  selected_sign: '&6Selected a sign. Type "/blocklocker <line number> <name>" to edit
-    this sign.'
+  add_more_users_sign_instead: '&4受保护方块上最多只能有一个包含[Private]的木牌, 如需增加更多玩家, 请使用[More Users]代替.'
+  bypassed: '&6你撬开了 {0} 的木牌锁.'
+  cannot_change_sign: '&4你不能编辑这个木牌锁.'
+  chest_hint: '&6在箱子上贴一块木牌可以将其锁定.'
+  claimed_container: '&6方块锁定成功. 除非得到你的允许, 否则他人无权和相应的方块交互.'
+  claimed_manually: '&6方块锁定成功. 除非得到你的允许, 否则他人无权和相应的方块交互.'
+  expired: '&6由于木牌锁创建者长期未登陆游戏, 此处的木牌锁现已失效.'
+  in_wilderness: '&4你不能在旷野创建木牌锁.'
+  is_claimed_by: '&6这个方块已被 {0} 锁定.'
+  no_access: '&4你不能和这个方块交互, 因为 {0} 已将其锁定.'
+  no_permission_for_claim: '&4你没有权限创建木牌锁.'
+  not_nearby: '&4附近没有可锁定的方块, 你可以按通过按下潜行+右键在任何方块上放置木牌.'
+  selected_sign: '&6木牌锁已选定. 使用 &b/blocklocker <行数> <玩家名> &6来编辑木牌锁.'
 tag:
   everyone: Everyone
   more_users: '[More Users]'
@@ -33,8 +29,6 @@ tag:
   redstone: Redstone
   timer: Timer
 updater:
-  more_information: '&6More information: {0}'
-  unsupported_server: '&4The latest version of BlockLocker (version {0}) no longer
-    supports this Minecraft version, only Minecraft {1}.'
-  update_available: '&6An update for BlockLocker (version {0}) is available for manual
-    download.'
+  more_information: '&6更多信息: {0}'
+  unsupported_server: '&4最新版本的 BlockLocker (版本号: {0}) 已不再支持当前版本的 Minecraft, 请改用 {1} 版本.'
+  update_available: '&6检测到 BlockLocker 有新版本 (版本号: {0}) 可用!'
