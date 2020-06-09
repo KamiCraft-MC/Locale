@@ -70,7 +70,7 @@ psregion:
     &7有多个领地使用了这个名字! 请使用ID代替.
     &7使用了该名称的领地: &b%regions%
   region_not_adjacent: '&c你已经拥有太多不相邻的领地了! 请尝试将领地相邻设置.'
-  not_overlapping: '&cThese regions don''t overlap each other!'
+  not_overlapping: '&c这些领地并未产生重叠!'
   multi_region_does_not_exist: One of these regions don't exist!
   no_region_holes: '&cUnprotected area detected inside region! This is not allowed!'
   delete_region_prevented: '&7The region could not be removed, possibly because it
