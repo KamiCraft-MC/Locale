@@ -68,7 +68,7 @@ psregion:
   cant_teleport: '&c你的传送被目标点处的领地阻止了!'
   specify_id_instead_of_alias: |-
     &7有多个领地使用了这个名字! 请使用ID代替.
-     Regions with this name: &b%regions%
+    &7使用了该名称的领地: &b%regions%
   region_not_adjacent: '&cYou''ve passed the limit of non-adjacent regions! Try putting
     your protection block closer to other regions you already own.'
   not_overlapping: '&cThese regions don''t overlap each other!'
