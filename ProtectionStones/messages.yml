@@ -8,8 +8,8 @@ not_enough_money: '&c你的铜钱数量不足! 价格为 %price% .'
 paid_money: '&b你支付了 $%price% .'
 invalid_world: '&c无效的世界.'
 must_be_player: '&c你必须是玩家才能执行此命令.'
-go_back_page: '返回上一页.'
-go_next_page: '前往下一页.'
+go_back_page: 返回上一页.
+go_next_page: 前往下一页.
 help: |-
   &8&m=====&r 领地方块帮助 &8&m=====
   &b> &7/ps help
