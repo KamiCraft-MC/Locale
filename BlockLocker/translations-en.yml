@@ -21,7 +21,7 @@ protection:
   no_access: '&4你不能和这个方块交互, 因为 {0} 已将其锁定.'
   no_permission_for_claim: '&4你没有权限创建木牌锁.'
   not_nearby: '&4附近没有可锁定的方块, 你可以按通过按下潜行+右键在任何方块上放置木牌.'
-  selected_sign: '&6木牌锁已选定. 使用 &b/lock <行数> <玩家名> &6来编辑木牌锁.'
+  selected_sign: '&6木牌锁已选定. 使用 &b/bl <行数> <玩家名> &6来编辑木牌锁.'
 tag:
   everyone: Everyone
   more_users: '[More Users]'
