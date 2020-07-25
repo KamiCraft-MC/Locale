@@ -114,7 +114,7 @@ main-commands:
 
   invite:
     sent: "&b已向 %player% 发出组队请求."
-    player-invited: '[{"text":"%player% 邀请你加入队伍 %color_code%%party%§b.\n","color":"aqua"},{"text":"你希望 ","color":"aqua"},{"text":"接受","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/party accept %party%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击接受邀请","color":"gold"}]}}},{"text":" 还是 ","color":"aqua","bold":false},{"text":"拒绝"","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/party deny %party%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击拒绝邀请","color":"gold"}]}}},{"text":"?\n","color":"aqua","bold":false},{"text":"你可以使用 ","color":"aqua"},{"text":"/party <accept/deny>","color":"gray"},{"text":" 做出选择.","color":"aqua"}]'
+    player-invited: '[{"text":"%player% 邀请你加入队伍 %party%.\n","color":"aqua"},{"text":"你希望 ","color":"aqua"},{"text":"接受","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/party accept %party%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击接受邀请","color":"gold"}]}}},{"text":" 还是 ","color":"aqua","bold":false},{"text":"拒绝","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/party deny %party%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击拒绝邀请","color":"gold"}]}}},{"text":" 这份邀请?\n","color":"aqua","bold":false},{"text":"你也可以使用 ","color":"aqua"},{"text":"/party <accept/deny>","color":"gray"},{"text":" 来接受/拒绝邀请.","color":"aqua"}]'
     timeout:
       noresponse: "&7%player% 未对你的邀请作出回应."
       timeout: "&7你没有及时回应来自队伍 &f%color_code%%party% &7的邀请, 邀请现已失效."
